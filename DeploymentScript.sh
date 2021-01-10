@@ -1,6 +1,5 @@
-#!/bin/sh: 
+#!/bin/sh 
 #update system packages 
-sudo su 
 apt-get update 
 #Install default jdk 
 apt-get install -y default-jdk 
